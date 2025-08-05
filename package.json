@@ -1,0 +1,27 @@
+{
+  "name": "data-fetching",
+  "private": true,
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "start": "nuxi preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@nuxt/examples-ui": "latest",
+    "@nuxtjs/storybook": "^8.4.1",
+    "msw": "^2.10.4",
+    "nuxt": "^3.16.2",
+    "storybook": "^9.1.1",
+    "vue": "3.5.13"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  },
+  "dependencies": {
+    "msw-storybook-addon": "^2.0.5"
+  }
+}
