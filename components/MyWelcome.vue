@@ -1,7 +1,3 @@
-<script setup>
-  const { data } = await useFetch('/api/hello')
-</script>
-
 <template>
   <h1>Welcome Nuxt to Storybook</h1>
   <NuxtWelcome />

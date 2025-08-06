@@ -2,7 +2,9 @@
 const props = defineProps({
   id: Number,
 })
+
 const { data: quote, pending, error } = await useFetch(() => `https://dummyjson.com/quotes/${props.id}`)
+
 </script>
 
 <template>
